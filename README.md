@@ -1,7 +1,6 @@
 stringify
 =========
 
-<<<<<<< HEAD
 Easy string concatenation for IEnumerable&lt;T>
 
 <code>
@@ -10,12 +9,12 @@ var keyValueItems = new Dictionary&lt;string, string&gt;() {
      {"key2","value2"},
      {"key3","value3"}
 };
-		///	string result =
-		///		keyValueItems.Stringify(
-		///			kvp => kvp.Key,
-		///			kvp => " ",
-		///			kvp => kvp.Value
-		///		},";");
+///string result =
+///	keyValueItems.Stringify(
+///	        kvp => kvp.Key,
+///		kvp => " ",
+///		kvp => kvp.Value
+///	},";");
 
 
 =======
@@ -53,4 +52,3 @@ numberMap.Stringify(";",
 );
 //returns "1=one;2=two;3=three;4=four"
 ```
->>>>>>> e374d7a2dfc97bca1db0f3163b801b4003c8bc03
